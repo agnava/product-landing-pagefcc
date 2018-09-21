@@ -1,0 +1,58 @@
+/* header line working left and right align  */
+
+#header-img{
+height : 42px;
+ width: 420px;
+ 
+	float: left;
+}
+/* navgation bar setting it to right */
+#nav-bar {
+        float: right;
+
+}
+
+.nav-link{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+
+/* forms  */
+#form{
+    display: flex;
+    text-align: justify;
+    padding-top: 100px;
+}
+
+
+/* video managing */
+#video{
+    display: inline-block;
+    align-content: center;
+}
+
+/* flexing */
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+}
+.flexbox div {
+    background-color: #f1f1f1;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .center{
+      text-align: center;
+  }
+
+  @media only screen and (max-width: 600px) {
+    body {
+        align-content: center;
+    }
+}
