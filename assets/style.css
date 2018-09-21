@@ -1,15 +1,14 @@
+
 /* header line working left and right align  */
 
 #header-img{
 height : 42px;
  width: 420px;
- 
 	float: left;
 }
 /* navgation bar setting it to right */
 #nav-bar {
         float: right;
-
 }
 
 .nav-link{
@@ -19,10 +18,10 @@ height : 42px;
 }
 
 
+
 /* forms  */
 #form{
-    display: flex;
-    text-align: justify;
+    align-content: center;
     padding-top: 100px;
 }
 
@@ -51,8 +50,25 @@ height : 42px;
       text-align: center;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media (max-width: 600px) {
     body {
         align-content: center;
+    }
+    .flexbox{
+        display: block;
+    }
+}
+  
+
+header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+@media (max-width:600px){
+    header{
+        width: 200px;
+        height: 100px;
     }
 }
